@@ -4,7 +4,7 @@ import requests
 import sys
 import subprocess
 from bs4 import BeautifulSoup
-from os import system, listdir, rename, makedirs
+from os import system, listdir, rename, makedirs, rename
 from os.path import isfile, join, exists
 import logging
 from logging.handlers import RotatingFileHandler
@@ -23,7 +23,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s')
 file_handler = RotatingFileHandler('activity.log', 'a', 1000000, 1)
-file_handler.setLevel(logging.INFO)
+file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 stream_handler = logging.StreamHandler()
@@ -56,9 +56,11 @@ def youtubedownload(textToSearch, ismp3=True):
         for f in listdir(DOWLOAD_LOCATION):
             pass
         video = DOWLOAD_LOCATION + f
-        mp3 = MP3_LOCATION +  target.title + '.mp3'
+        mp3 = MP3_LOCATION +  f + '.mp3'
         #call ffmpeg
+        logger.debug('ffmpeg -n -i ' + '"' + video + '"' + ' -ab 128k ' + '"' + mp3 + '"')
         system('ffmpeg -n -i ' + '"' + video + '"' + ' -ab 128k ' + '"' + mp3 + '"')
+        logger.debug('rm ' + '"' + video + '"')
         system('rm ' + '"' + video + '"')
         logger.info(textToSearch + ' converted to mp3')
 
@@ -91,5 +93,6 @@ if __name__ == '__main__':
             with open(list, 'r',errors='ignore') as data:
                 for line in data:
                     youtubedownload(line)
-    except:
-        help()
+    except Exception as e:
+        #help()
+        print(e)
