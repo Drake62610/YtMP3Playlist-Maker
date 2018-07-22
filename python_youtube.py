@@ -4,7 +4,7 @@ import requests
 import sys
 import subprocess
 from bs4 import BeautifulSoup
-from os import system, listdir, rename, makedirs, rename
+from os import system, listdir, rename, makedirs
 from os.path import isfile, join, exists
 import logging
 from logging.handlers import RotatingFileHandler
@@ -94,5 +94,4 @@ if __name__ == '__main__':
                 for line in data:
                     youtubedownload(line)
     except Exception as e:
-        #help()
-        print(e)
+        help()
