@@ -1,0 +1,44 @@
+2018-07-22 14:30:54,121 :: INFO :: Starting new HTTPS connection (1): www.youtube.com
+2018-07-22 14:30:54,303 :: DEBUG :: "GET /results?search_query='Kami-iro%20Awase%20-%20binaria%0A' HTTP/1.1" 200 None
+2018-07-22 14:30:56,477 :: INFO :: Program associated Kami-iro Awase - binaria
+ to Kami-iro Awase (カミイロアワセ) [DR3 ZH OP] -【Binaria】(Sub Español y Romaji)
+2018-07-22 14:30:57,435 :: INFO :: Kami-iro Awase (カミイロアワセ) [DR3 ZH OP] -【Binaria】(Sub Español y Romaji) downloaded
+2018-07-22 14:31:06,020 :: INFO :: Kami-iro Awase - binaria
+ converted to mp3
+2018-07-22 14:31:06,027 :: INFO :: Starting new HTTPS connection (1): www.youtube.com
+2018-07-22 14:31:06,178 :: DEBUG :: "GET /results?search_query='Nornir%20-%20Mawaru%20Penguindrum%0A' HTTP/1.1" 200 None
+2018-07-22 14:31:08,400 :: INFO :: Program associated Nornir - Mawaru Penguindrum
+ to Noruniru [Radio Onsen Eutopia] - Yakushimaru Etsuko
+2018-07-22 14:31:09,444 :: INFO :: Noruniru [Radio Onsen Eutopia] - Yakushimaru Etsuko downloaded
+2018-07-22 14:31:20,963 :: INFO :: Nornir - Mawaru Penguindrum
+ converted to mp3
+2018-07-22 14:31:20,968 :: INFO :: Starting new HTTPS connection (1): www.youtube.com
+2018-07-22 14:31:21,112 :: DEBUG :: "GET /results?search_query='Sirius%20-%20Eir%20Aoi%0A' HTTP/1.1" 200 None
+2018-07-22 14:31:23,415 :: INFO :: Program associated Sirius - Eir Aoi
+ to Eir Aoi - sirius
+2018-07-22 14:31:25,176 :: INFO :: Eir Aoi - sirius downloaded
+2018-07-22 14:31:33,051 :: INFO :: Sirius - Eir Aoi
+ converted to mp3
+2018-07-22 14:31:33,057 :: INFO :: Starting new HTTPS connection (1): www.youtube.com
+2018-07-22 14:31:33,194 :: DEBUG :: "GET /results?search_query='Gospel%20of%20the%20Throttle%20(Kyouhon%20REMIX%20ver.)%20-%20Minutes%20Til%20Midnight%0A' HTTP/1.1" 200 None
+2018-07-22 14:31:35,599 :: INFO :: Program associated Gospel of the Throttle (Kyouhon REMIX ver.) - Minutes Til Midnight
+ to Drifters FULL OP  - Minutes Til Midnight – Gospel of the Throttle 狂奔Remix Ver. Single
+2018-07-22 14:31:36,390 :: INFO :: Drifters FULL OP  - Minutes Til Midnight – Gospel of the Throttle 狂奔Remix Ver. Single downloaded
+2018-07-22 14:31:41,825 :: INFO :: Gospel of the Throttle (Kyouhon REMIX ver.) - Minutes Til Midnight
+ converted to mp3
+2018-07-22 14:31:41,832 :: INFO :: Starting new HTTPS connection (1): www.youtube.com
+2018-07-22 14:31:41,981 :: DEBUG :: "GET /results?search_query='Shonen%20yo%20Ware%20ni%20Kaere%20-%20Mawaru%20penguindrum%0A' HTTP/1.1" 200 None
+2018-07-22 14:31:44,311 :: INFO :: Program associated Shonen yo Ware ni Kaere - Mawaru penguindrum
+ to Mawaru Penguindrum Op 2 Creditless
+2018-07-22 14:31:45,875 :: INFO :: Mawaru Penguindrum Op 2 Creditless downloaded
+2018-07-22 14:31:48,942 :: INFO :: Shonen yo Ware ni Kaere - Mawaru penguindrum
+ converted to mp3
+2018-07-22 14:31:48,952 :: INFO :: Starting new HTTPS connection (1): www.youtube.com
+2018-07-22 14:31:49,102 :: DEBUG :: "GET /results?search_query='No.%206%20-%20Lama%0A' HTTP/1.1" 200 None
+2018-07-22 14:31:51,405 :: INFO :: Program associated No. 6 - Lama
+ to No. 6 Opening Full
+2018-07-22 14:31:53,147 :: INFO :: No. 6 Opening Full downloaded
+2018-07-22 14:32:01,312 :: INFO :: No. 6 - Lama
+ converted to mp3
+2018-07-22 14:32:01,322 :: INFO :: Starting new HTTPS connection (1): www.youtube.com
+2018-07-22 14:32:01,467 :: DEBUG :: "GET /results?search_query='Dead%20END%20-%20Faylan%0A' HTTP/1.1" 200 None
