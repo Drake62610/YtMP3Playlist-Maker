@@ -27,7 +27,7 @@ file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 stream_handler = logging.StreamHandler()
-stream_handler.setLevel(logging.)
+stream_handler.setLevel(logging.INFO)
 logger.addHandler(stream_handler)
 
 # Function that will simulate a search on youtube and return the link of the top video
@@ -82,7 +82,6 @@ if __name__ == '__main__':
                 mp3 = True
         except:
             mp3 = True
-        print('hello')
         #file verification
         if not exists(list):
             logger.warning('File does not exist')
